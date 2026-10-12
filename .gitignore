@@ -1,0 +1,14 @@
+# Licensed data: never commit ecoinvent or openLCA exports/backups
+*.zolca
+*.zip
+*.zolca.*
+ecoinvent*/
+actors/
+flows/
+processes/
+lcia_*/
+product_systems/
+openlca.json
+__pycache__/
+.pytest_cache/
+.venv/

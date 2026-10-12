@@ -1,0 +1,5 @@
+crop,scenario,net_kg_co2e_per_ha
+rice,Crop + open burning of straw,8503.0
+rice,Crop + biochar from straw,6384.3
+wheat,Crop + open burning of straw,865.3
+wheat,Crop + biochar from straw,-1238.1

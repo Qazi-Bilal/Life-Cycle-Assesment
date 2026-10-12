@@ -1,0 +1,268 @@
+rice_crop:
+  description: Rice cultivation, 1 ha (grain 3,076 kg)
+  source: RICE_inventory.xlsx / RICE 2024
+  inputs:
+    diesel, burned in agricultural machinery:
+    - 26896.211994599995
+    - MJ
+    inorganic nitrogen fertiliser, as N:
+    - 135.85
+    - kg
+    inorganic phosphorus fertiliser, as P2O5:
+    - 56.81
+    - kg
+    inorganic potassium fertiliser, as K2O:
+    - 74.1
+    - kg
+    irrigation:
+    - 66730.0
+    - m3
+    rice seed, for sowing:
+    - 24.7
+    - kg
+    pesticide, unspecified:
+    - 40.5
+    - kg
+    zinc sulfide:
+    - 25.0
+    - kg
+    fertilising, by broadcaster:
+    - 7.0
+    - ha
+    sulfur:
+    - 10.0
+    - kg
+    Occupation, annual crop, irrigated:
+    - 1.0
+    - ha*a
+    transport, freight, tractor and trailer, diesel, agricultural:
+    - 39.0
+    - t*km
+    biochar - PK:
+    - 297.0
+    - kg
+  outputs:
+    rice, basmati:
+    - 3076.233963
+    - kg
+    straw:
+    - 11158.98583198151
+    - kg
+    Ammonia:
+    - 13.58
+    - kg
+    Methane, non-fossil:
+    - 208.0
+    - kg
+    Nitrate:
+    - 40.755
+    - kg
+    Nitrogen oxides:
+    - 0.41
+    - kg
+    Phosphorus:
+    - 1.24
+    - kg
+    Carbon dioxide, fossil:
+    - 1993.009
+    - kg
+    Nitrous oxide (direct, N2O):
+    - 2.13
+    - kg
+    Carbon dioxide, from soil or biomass stock:
+    - -335.3144256000003
+    - kg
+rice_open_burning:
+  description: Open burning of rice straw, 1 ha
+  source: RICE_inventory.xlsx / Rice 2024 Open Burning
+  inputs:
+    straw:
+    - 9596.727816
+    - kg
+  outputs:
+    Carbon dioxide, non-fossil:
+    - 14011.22261136
+    - kg
+    Methane, non-fossil:
+    - 23.99181954
+    - kg
+    Nitrogen oxides:
+    - 0.57580366896
+    - kg
+    Particulate Matter, < 2.5 um:
+    - 19.193455632000003
+    - kg
+    EMISSION(Proxy:
+    - 1.0
+    - ha
+rice_pyrolysis:
+  description: Pyrolysis of rice straw to biochar
+  source: RICE_inventory.xlsx / RICE 2024 TO BIOCHAR
+  inputs:
+    straw:
+    - 9596.727816
+    - kg
+  outputs:
+    biochar - PK:
+    - 1478.8557564456
+    - kg
+    Bio-oil - PK:
+    - 3358.8547356
+    - kg
+    Syngas:
+    - 3358.8547356
+    - kg
+    Carbon dioxide, non-fossil:
+    - 6654.8509040052
+    - kg
+    Methane, non-fossil:
+    - 7.36155
+    - kg
+    Nitrogen oxides:
+    - 0.5912
+    - kg
+    Particulate Matter, > 2.5 um and < 10um:
+    - 16.87022731023274
+    - kg
+    'Carbon dioxide, fossil (kiln diesel combustion) [addition: not modelled in the previous draft]':
+    - 0.0741
+    - kg
+rice_biochar_soil:
+  description: Biochar applied to soil (100-yr carbon storage credit)
+  source: RICE_inventory.xlsx / Biochar 2024(soil)
+  inputs:
+    biochar - PK:
+    - 1478.8557564456
+    - kg
+  outputs:
+    Carbon dioxide, from soil or biomass stock:
+    - -1669.6352475347146
+    - kg
+wheat_crop:
+  description: Wheat cultivation, 1 ha (grain 4,993 kg)
+  source: openLCA JSON-LD export, process WHEAT_1
+  inputs:
+    biochar:
+    - 3000.0
+    - kg
+    inorganic potassium fertiliser, as K2O:
+    - 30.0
+    - kg
+    sulfur:
+    - 5.0
+    - kg
+    wheat seed, for sowing:
+    - 247.0
+    - kg
+    inorganic phosphorus fertiliser, as P2O5:
+    - 56.81
+    - kg
+    inorganic nitrogen fertiliser, as N:
+    - 181.39
+    - kg
+    irrigation:
+    - 4950.0
+    - m3
+    fertilising, by broadcaster:
+    - 6.0
+    - ha
+    Occupation, annual crop, irrigated:
+    - 1.0
+    - ha*a
+    zinc sulfide:
+    - 25.0
+    - kg
+    diesel, burned in agricultural machinery:
+    - 48679.5797
+    - MJ
+    pesticide, unspecified:
+    - 3.21
+    - kg
+    transport, freight, tractor and trailer, diesel, agricultural:
+    - 74.85
+    - t*km
+  outputs:
+    Carbon dioxide, fossil:
+    - 3607.156856
+    - kg
+    Nitrogen oxides:
+    - 2.98
+    - kg
+    Ammonia:
+    - 24.23
+    - kg
+    Phosphorus:
+    - 1.24
+    - kg
+    Nitrate:
+    - 54.417
+    - kg
+    straw:
+    - 11114.19355
+    - kg
+    Carbon dioxide, from soil or biomass stock:
+    - -3387.0144
+    - kg
+    wheat grain:
+    - 4993.0
+    - kg
+wheat_open_burning:
+  description: Open burning of wheat straw, 1 ha
+  source: openLCA JSON-LD export, process Open Burning_Wheat_1
+  inputs:
+    straw:
+    - 9558.206
+    - kg
+  outputs:
+    EMISSION(Proxy:
+    - 1.0
+    - ha
+    Particulate Matter, < 2.5 um:
+    - 19.11
+    - kg
+    Nitrogen oxides:
+    - 0.57834
+    - kg
+    Carbon dioxide, non-fossil:
+    - 13954.98
+    - kg
+    Methane, non-fossil:
+    - 23.8955
+    - kg
+wheat_pyrolysis:
+  description: Pyrolysis of wheat straw to biochar
+  source: RICE_inventory.xlsx / WHEAT_STRAW_TO_BIOCHAR
+  inputs:
+    straw:
+    - 9558.206
+    - kg
+  outputs:
+    biochar - PK:
+    - 1482.4777505999998
+    - kg
+    Bio-oil - PK:
+    - 3745.35
+    - kg
+    Syngas:
+    - 3745.35
+    - kg
+    Carbon dioxide, non-fossil:
+    - 6671.149877699999
+    - kg
+    Methane, non-fossil:
+    - 7.98208992
+    - kg
+    Nitrogen oxides:
+    - 0.66389004
+    - kg
+wheat_biochar_soil:
+  description: Biochar applied to soil (100-yr carbon storage credit)
+  source: RICE_inventory.xlsx / BIOCHAR_SOIL_WHEAT_1
+  inputs:
+    biochar - PK:
+    - 1482.4777505999998
+    - kg
+  outputs:
+    Carbon dioxide, from soil or biomass stock:
+    - -1673.7244963206042
+    - kg

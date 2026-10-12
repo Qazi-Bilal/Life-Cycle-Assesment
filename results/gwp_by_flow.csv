@@ -1,0 +1,23 @@
+crop,scenario,process,flow,kg_co2e
+rice,Crop + open burning of straw,rice_crop,"Methane, non-fossil",5616.0
+rice,Crop + open burning of straw,rice_crop,"Carbon dioxide, fossil",1993.009
+rice,Crop + open burning of straw,rice_crop,"Nitrous oxide (direct, N2O)",581.49
+rice,Crop + open burning of straw,rice_crop,"Carbon dioxide, from soil or biomass stock",-335.3144256000003
+rice,Crop + open burning of straw,rice_open_burning,"Carbon dioxide, non-fossil",0.0
+rice,Crop + open burning of straw,rice_open_burning,"Methane, non-fossil",647.77912758
+rice,Crop + biochar from straw,rice_crop,"Methane, non-fossil",5616.0
+rice,Crop + biochar from straw,rice_crop,"Carbon dioxide, fossil",1993.009
+rice,Crop + biochar from straw,rice_crop,"Nitrous oxide (direct, N2O)",581.49
+rice,Crop + biochar from straw,rice_crop,"Carbon dioxide, from soil or biomass stock",-335.3144256000003
+rice,Crop + biochar from straw,rice_pyrolysis,"Carbon dioxide, non-fossil",0.0
+rice,Crop + biochar from straw,rice_pyrolysis,"Methane, non-fossil",198.76185
+rice,Crop + biochar from straw,rice_biochar_soil,"Carbon dioxide, from soil or biomass stock",-1669.6352475347146
+wheat,Crop + open burning of straw,wheat_crop,"Carbon dioxide, fossil",3607.156856
+wheat,Crop + open burning of straw,wheat_crop,"Carbon dioxide, from soil or biomass stock",-3387.0144
+wheat,Crop + open burning of straw,wheat_open_burning,"Carbon dioxide, non-fossil",0.0
+wheat,Crop + open burning of straw,wheat_open_burning,"Methane, non-fossil",645.1785
+wheat,Crop + biochar from straw,wheat_crop,"Carbon dioxide, fossil",3607.156856
+wheat,Crop + biochar from straw,wheat_crop,"Carbon dioxide, from soil or biomass stock",-3387.0144
+wheat,Crop + biochar from straw,wheat_pyrolysis,"Carbon dioxide, non-fossil",0.0
+wheat,Crop + biochar from straw,wheat_pyrolysis,"Methane, non-fossil",215.51642784
+wheat,Crop + biochar from straw,wheat_biochar_soil,"Carbon dioxide, from soil or biomass stock",-1673.7244963206042

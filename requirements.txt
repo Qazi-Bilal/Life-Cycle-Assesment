@@ -1,0 +1,6 @@
+pyyaml
+matplotlib
+pytest
+# only for scripts/run_openlca.py:
+# olca-ipc
+# olca-schema
